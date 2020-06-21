@@ -1,0 +1,214 @@
+/********************TAG SELECTOR****************/
+h1,h2,h3{
+    color: #01a9b4;
+    line-height: 2;
+}
+body{
+    margin: 0em;
+    width: 95%;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    font-size: 20px;
+    line-height: 2;
+}
+h2,h3{
+    font-family: 'Montserrat',sans-serif;
+}
+p{
+    color: #342b38;
+    text-align: left;
+}
+hr{
+    border: dotted #56dbdbde 6px; 
+    border-bottom:none;
+    width: 5%;
+    margin: 50px auto;
+   
+}
+
+
+
+/********************CLASS SELECTOR****************/
+
+
+               /************ CONTAINERS************/
+.top-container{
+    background-color:#cfe5cf;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.middle-container{
+    margin: 100px 0;
+    background-color: white;
+    
+}
+.bottom-container{
+    background-color:#cfe5cf;
+    padding: 50px 0 20px;
+    width: 105%;
+    
+}
+a{
+    color: #11999e;
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #04477a;
+}
+
+
+
+
+
+               /************ TOP CONTAINER ***********/
+
+.cloud1{
+    width:10%;
+    height:7%;    
+    position: absolute;
+    top : 10%;
+    right:8%
+}
+.cloud2{
+    width:10%;
+    height:7%;
+    position: absolute;
+    top : 60%;
+    left : 3%
+}
+    
+.namee{
+    font-family: 'Tangerine', cursive;
+    font-size: 562.5%;
+    font-weight: bold;
+    position: absolute;
+    top : 8%;
+    right:40%
+    
+}
+.programmer{
+    color: #01a9b4;
+    font-weight: lighter;
+    font-size:120% ;
+    position: absolute;
+    top : 45%;
+    right:50%
+}
+.mountain{
+    width:80%;
+    height:40%;
+    position: relative;
+    top:65%;
+    left:10%;
+}
+
+
+               /************ MIDDLE CONTAINER ***********/
+
+ .profile{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+ }      
+ .design{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;    
+ }  
+ .designs{
+     text-align: center;
+ }
+ .design-p{
+     display: block;
+     text-align: justify;
+ }
+ .develope{
+    
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-left: 30px;
+        border-radius: 50%;
+        text-align: right;
+        
+    }
+      
+ .profileview{
+     width: 50%;
+     margin: auto;
+ }
+.design-div{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;    
+}
+
+.getInTouch{
+    width: 50%;
+    margin: auto; 
+    
+}
+.touch-class{
+    text-align: justify;
+}
+
+               /************ BOTTOM CONTAINER ***********/
+
+.copyright{
+    color: #393e46;
+    font-size: small;
+   
+}
+
+.classname {
+	-moz-box-shadow:inset -1px 0px 8px -20px #7cb3e6;
+	-webkit-box-shadow:inset -1px 0px 8px -20px #7cb3e6;
+	box-shadow:inset -1px 0px 8px -20px #7cb3e6;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #25a89b), color-stop(1, #0c729e) );
+	background:-moz-linear-gradient( center top, #25a89b 5%, #0c729e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25a89b', endColorstr='#0c729e');
+	background-color:#25a89b;
+	-webkit-border-top-left-radius:11px;
+	-moz-border-radius-topleft:11px;
+	border-top-left-radius:11px;
+	-webkit-border-top-right-radius:11px;
+	-moz-border-radius-topright:11px;
+	border-top-right-radius:11px;
+	-webkit-border-bottom-right-radius:11px;
+	-moz-border-radius-bottomright:11px;
+	border-bottom-right-radius:11px;
+	-webkit-border-bottom-left-radius:11px;
+	-moz-border-radius-bottomleft:11px;
+	border-bottom-left-radius:11px;
+text-indent:0;
+	display:inline-block;
+	color:#fcfcfc;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+height:32px;
+	line-height:32px;
+width:146px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-4px 1px 0px #5f7082;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0c729e), color-stop(1, #25a89b) );
+	background:-moz-linear-gradient( center top, #0c729e 5%, #25a89b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c729e', endColorstr='#25a89b');
+	background-color:#0c729e;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+.copyright{
+    text-align:center;
+}
